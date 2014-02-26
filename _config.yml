@@ -1,0 +1,43 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+title:       "Keshav OS"
+keywords:    "keshav os, github, portfolio, github, developer"
+description: "Portfolio for Keshav OS"
+source_link: "https://github.com/keshavos.github.io"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: UA-61066050-1 ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:        '#2C2B29'
+  white:        '#F3EDE1'
+  briwhite: '#FFFFFF'
+  warmgray1:        '#A9A59D'
+  warmgray2:        '#78746F'
+  warmgray3:        '#4B4945'
+  gray1:    '#EFEFEF'
+  gray2:    '#DEDEDE'
+  gray3:    '#CDCDCD'
+  red:      '#FF3636'
+  blue:         '#49a7e9'
+  green:        '#9bcf2f'
+  purple:       '#c869bf'
+  orange:       '#fab125'
+  turquoise:    '#0fbfcf'
